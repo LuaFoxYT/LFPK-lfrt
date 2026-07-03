@@ -1,0 +1,1 @@
+{"luafoxyt.github.io/@ONE@-lfrt/src/_INSTALLER_.lua"}
