@@ -1,4 +1,4 @@
-NAME := "lfpkm"
+NAME := lfpkm
 lfar:
 	lfrt launch lfdev tbfs -c src out.lfar
 
