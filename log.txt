@@ -1,9 +1,7 @@
-1	launch	
-2	lfdev	
-3	tbfs	
-4	-c	
-5	src	
-6	out.lfar	
+1	lfar	
+2	out.lfar	
+3	install	
+4	LuaFoxYT/lfrt-echo-template	
 /mnt/sdcard/Documents/LFPK-lfrt/.lfar-84018/	
 --[LuaFox Runtime Initialization]--	
 creating classtype: api	
@@ -13,11 +11,12 @@ creating api: lfrt:term version 1
 added class: lfrt:term of type [api]	
 creating api: lfrt:filesystem version 0	
 added class: lfrt:filesystem of type [api]	
-creating api: lfrt:fs version 1	
-added class: lfrt:fs of type [api]	
+creating api: lfrt:filesystem version 1	
+added class: lfrt:filesystem of type [api]	
 creating api: lfrt:tbfs version 0	
 added class: lfrt:tbfs of type [api]	
-classtype: 004-tbfs.lua:50: API of that version not available (API: filesystem v1	
+creating api: lfrt:tbfs version 1	
+added class: lfrt:tbfs of type [api]	
 creating api: lfrt:json version 0	
 added class: lfrt:json of type [api]	
 creating api: lfrt:lfpk version 0	
@@ -30,11 +29,28 @@ creating classtype: button
 creating classtype: entry	
 creating api: lfrt:runtime version 0	
 added class: lfrt:runtime of type [api]	
+creating api: lfrt:runtime version 1	
+added class: lfrt:runtime of type [api]	
 --[Appliation Start]--	
-lfdev Terminal initialization	
-loading module: 001-json.lua	
-creating api: TheLuaFox86:json version 0	
-added class: TheLuaFox86:json of type [api]	
-function: 0x741c2ab180	nil	
 filesystem.open is deprecated avoid using. now use filesystem.[readPart, writePart, readAll, writeAll]	
+/lfrtBin__________________/echo.lfar	AppData	/home/LuaFox/.config/	1	
+/lfrtBin__________________/echo.lfar	AppData	/home/LuaFox/.config/	2	
+/lfrtBin__________________/echo.lfar	User	/home/LuaFox/	1	
+/lfrtBin__________________/echo.lfar	User	/home/LuaFox/	2	
+/lfrtBin__________________/echo.lfar	lfrtLib	/home/LuaFox/.config/lfrt/lib/	1	
+/lfrtBin__________________/echo.lfar	lfrtLib	/home/LuaFox/.config/lfrt/lib/	2	
+/lfrtBin__________________/echo.lfar	lfrtBin	/home/LuaFox/.config/lfrt/prg/	1	
+//home/LuaFox/.config/lfrt/prg//echo.lfar	lfrtBin	/home/LuaFox/.config/lfrt/prg/	2	
+//home/LuaFox/.config/lfrt/prg//echo.lfar	lfrt	/home/LuaFox/.config/lfrt/	1	
+//home/LuaFox/.config/lfrt/prg//echo.lfar	lfrt	/home/LuaFox/.config/lfrt/	2	
+/lfrtBin__________________	AppData	/home/LuaFox/.config/	1	
+/lfrtBin__________________	AppData	/home/LuaFox/.config/	2	
+/lfrtBin__________________	User	/home/LuaFox/	1	
+/lfrtBin__________________	User	/home/LuaFox/	2	
+/lfrtBin__________________	lfrtLib	/home/LuaFox/.config/lfrt/lib/	1	
+/lfrtBin__________________	lfrtLib	/home/LuaFox/.config/lfrt/lib/	2	
+/lfrtBin__________________	lfrtBin	/home/LuaFox/.config/lfrt/prg/	1	
+//home/LuaFox/.config/lfrt/prg/	lfrtBin	/home/LuaFox/.config/lfrt/prg/	2	
+//home/LuaFox/.config/lfrt/prg/	lfrt	/home/LuaFox/.config/lfrt/	1	
+//home/LuaFox/.config/lfrt/prg/	lfrt	/home/LuaFox/.config/lfrt/	2	
 filesystem.open is deprecated avoid using. now use filesystem.[readPart, writePart, readAll, writeAll]	

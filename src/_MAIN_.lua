@@ -15,7 +15,7 @@ local function ins(a, b, d, isLocal)
 		lfpk:install(pk)
 	else
 		local c = cURL.easy_init()
-		local url = "https:/raw.githubusercontent.com/" .. a .. '/refs/heads/' .. (b or "master") .. "/lfpk/lfrt/" .. (d or "latest") .. ".lfpk"
+		local url = "https://raw.githubusercontent.com/" .. a .. '/refs/heads/' .. (b or "main") .. "/lfpk/lfrt/" .. (d or "latest") .. ".lfpk"
 		print(url)
 		c:setopt_url(url)
 		local fn = "./.tmp" .. math.random(99999) .. ".lfpk"

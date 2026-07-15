@@ -1,0 +1,1 @@
+{["//home/LuaFox/.config/lfrt/prg/"] = {type = "dir"}, ["//home/LuaFox/.config/lfrt/prg//echo.lfar"] = {content = "{[\"/_MAIN_.lua\"] = {content = \"print(\\\"deezNuts! Gottem! HAH!\\\")\", type = \"file\"}}", type = "file"}}
